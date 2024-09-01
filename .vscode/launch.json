@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "d:/Tech-Work/OOAD/OOps/operator_overloading/Increment_operator",
+      "program": "d:/Tech-Work/OOAD/OOps/operator_overloading/Increment_operator/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
