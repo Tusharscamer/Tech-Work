@@ -17,3 +17,17 @@ cpp
  added new file as DAA/Divide And Conquer/Matrix Multiplication/divide_and_conquer.cpp & Starssen_multiplication.cpp
  </li>
  </ul>
+
+ <h2 style="color:red"> 1. 2024.09.08 </h2>
+<ul>
+<li>
+ added new file as LaTeX Documentation/Latex Slides
+ </li>
+ </ul>
+
+ <h2 style="color:red"> 1. 2024.09.09 </h2>
+<ul>
+<li>
+ added new file as OOAD/OOps/Inheritance/Teacher_And_Teacher_caretaker.cpp
+ </li>
+ </ul>
