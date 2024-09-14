@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webMart</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://kit.fontawesome.com/a835322af7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="flex justify-between items-center p-3 bg-[#FFF7F7] ">
+            <div>
+               <span class="text-3xl ">Web</span>
+               <span><span class="text-3xl text-red-500">Mart</span>
+            </div>
+            <div class="space-x-8 ">
+                <a href="/Home "class="text-xl hover:underline hover:text-blue-500 transition duration-300">Home</a>
+                <a href="/Games" class="text-xl hover:underline hover:text-blue-500 transition duration-300">Games</a>
+                <a href="Movies" class="text-xl hover:underline hover:text-blue-500 transition duration-300">Movies</a>
+                <a href="/Books" class="text-xl hover:underline hover:text-blue-500 transition duration-300">Books</a>
+                <a href="Music" class="text-xl hover:underline hover:text-blue-500 transition duration-300">Music</a>
+            </div>
+           <div id="search" class="hidden">
+            <i  class=" text-black fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Search"  class="w-80 rounded-md p-2 text-xl border-none">
+           </div>
+            <div class="space-x-4 mr-5 text-xl" >
+               <button type="button " id="search-icon"> <i  class=" w-12 h-12 p-3.5  rounded-full hover:bg-[#E6D9A2] hover:cursor-pointer text-black fa-solid fa-magnifying-glass"></i></button>
+                <i class="w-12 h-12 p-3.5 rounded-full hover:bg-[#E6D9A2] hover:cursor-pointer text-black fa-solid fa-user"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <div class="PopularApps m-16 shadow-md shadow-slate-600 ">
+        <h1 class="text-3xl m-5">Popular Apps</h1>
+          <div id="app-container" class="m-5 flex flex-wrap gap-8">
+            <div  class=" flex flex-col justify-center items-center p-2">
+                <img src="image/apps/instaLogo.png" alt="" class="w-32 h-32">
+                <span>Insta</span>
+                <span class=>
+                    <span>4.3</span>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+              </div>
+          </div>
+      </div>
+      <div class="Populargames m-16 shadow-md shadow-slate-600 ">
+        <h1 class="text-3xl m-5">Editors choice </h1>
+          <div id="editorTool-container" class="m-5 flex flex-wrap gap-8">
+            <div  class=" flex flex-col ">
+                <img src="image/apps/instaLogo.png" alt="" class="w-32 h-32">
+                <span>Insta</span>
+                <span>
+                    <span>4.3</span>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+              </div>
+          </div>
+      </div>
+      <div class="PopularApps m-16 shadow-md shadow-slate-600 ">
+        <h1 class="text-3xl m-5">Share Photos and Videos</h1>
+          <div id="spv-container" class="m-5 flex flex-wrap gap-8">
+            <div  class=" flex flex-col ">
+                <img src="image/apps/instaLogo.png" alt="" class="w-32 h-32">
+                <span>Insta</span>
+                <span>
+                    <span>4.3</span>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+              </div>
+          </div>
+      </div>
+      
+
+    </main>
+   <footer>
+    <div class="bg-[#10243D] text-white flex  p-10  justify-normal items-center space-x-96">
+      <div  class=>
+        <span class="text-xl">Join our Devoloper Community</span>
+        <form action="/user/signup" autocomplete="off" method="post" class="flex flex-col mt-5 space-y-8">
+          <div class="space-x-2">
+              <input type="text" placeholder="First Name"
+                  class="w-40 h-8 p-2 shadow-gray-500 shadow-md text-black" required>
+              <input type="text" placeholder="Last Name"
+                  class="w-40 h-8 p-2 shadow-gray-500 shadow-md text-black" required>
+          </div>
+          <input type="email" placeholder="Email" class="w-80 h-8 p-2 shadow-gray-500 shadow-md text-black"
+              required>
+          <input type="password" placeholder="Password"
+              class="w-60 h-8 p-2  shadow-gray-500 shadow-md text-black" required>
+          <div class="flex space-x-4">
+              <input type="checkbox" class="w-4 cursor-pointer">
+              <div class="text-base">
+                  <span>I agree Web Mart's Terms and conditions</span>
+              </div>
+          </div>
+          <input type="submit" value="Join"
+              class="bg-white text-black w-40 h-10 text-xl cursor-pointer rounded-3xl">
+      </form>
+      </div >
+       <div class="flex flex-col space-y-4 ">
+          <span>About Us</span>
+          <span>Contact Us</span>
+          <span>Privacy Policy</span>
+          <span>Terms & Conditions</span>
+       </div>
+    </div>
+    <div class="flex justify-around items-center p-5 bg-[#10243D] text-white">
+      <div class="logo flex justify-center items-center">
+          <img class="logo-img w-10 rounded-full" src="/images/web-mart-logo.svg" alt="WM">
+          <h2 class="text-xl font-bold ms-2">Web <span class="text-[var(--logo)]">Mart</span></h2>
+      </div>
+      <p>Copyright © 2024 WebMart, All rights reserved.</p>
+      <p>Our Social Network :</p>
+  </div>
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>
