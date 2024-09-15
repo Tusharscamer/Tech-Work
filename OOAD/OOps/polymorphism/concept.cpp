@@ -27,7 +27,7 @@ public:
     void perameter(){
         cout<<"peramereter"<<endl;
     }
-};d
+};
 int main() {
     circle c1;
     shape *s=&c1;

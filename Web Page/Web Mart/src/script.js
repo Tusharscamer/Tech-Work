@@ -66,13 +66,13 @@ const apps = [
     editorTools.forEach(editorTools => {
       // Create the app div
       const edappDiv = document.createElement('div');
-      edappDiv.classList.add('app', 'flex', 'flex-col','p-2','justify-center','items-center');
+      edappDiv.classList.add('app', 'flex', 'flex-col','p-2','justify-center','items-center','shadow-lg','shadow-slate-150');
     
       // Create and append img
       const img = document.createElement('img');
       img.src = editorTools.imgSrc;
       img.alt = `${editorTools.appName} Logo`;
-      img.classList.add('w-32', 'h-32');
+      img.classList.add('w-28', 'h-28');
       edappDiv.appendChild(img);
     
       // Create and append app name
