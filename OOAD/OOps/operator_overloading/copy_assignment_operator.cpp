@@ -4,7 +4,15 @@ class Complex{
     public:
     int r;
     int* i;
+    Complex(){
+        
+    }
     Complex operator=(Complex obj){
+        this->r=obj.r;
+        this->i=obj.i;
+    }
+    //copy constructor
+    Complex(Complex &obj){
         this->r=obj.r;
         this->i=obj.i;
     }
@@ -14,7 +22,8 @@ int main(){
     num1.r=4;
     int u=3;
     num1.i=new int(3);
-    Complex num2;
+    Complex num2=num1;
+    cout<<num2.r<<" "<<num2.i<<endl;
     num2=num1;
     cout<<num2.r<<" "<<*num2.i<<endl;
     num1.i=new int(4);
