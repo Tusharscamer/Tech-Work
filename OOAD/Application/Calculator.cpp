@@ -62,7 +62,8 @@ Cal<C> operator/(Cal<C> &obj1,  Cal<C> &obj2) {
 }
 
 int main() {
-    Cal<int> num1(2);
+    int i=5;
+    Cal<int> num1(i);
     Cal<int> num2(4);
     Cal<int> num3 = num1 + num2;
     cout<<num1-num2<<endl;

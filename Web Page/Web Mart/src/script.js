@@ -6,7 +6,6 @@ searchIcon.addEventListener("click",function(){
 });
 const appContainer = document.getElementById('app-container');
 const numberOfApps = 7;
-
 const apps = [
     { imgSrc: 'image/apps/facebook.png', appName: 'Facebook' , appRating :'4.5'},
     { imgSrc: 'image/apps/instalite.png', appName: 'Instalite', appRating :'4.0'},
@@ -52,7 +51,7 @@ const apps = [
     appContainer.appendChild(appDiv);
   });
 
-  const edchoiceContainer = document.getElementById('editorTool-container');
+  let edchoiceContainer = document.getElementById('editorTool-container');
   
   const editorTools = [
       { imgSrc: 'image/editorsChoice/hotstar.png', appName: 'Hotstar' , appRating :'4.5'},
@@ -149,5 +148,8 @@ const apps = [
       });
     
     
-  
-    
+      let main = document.querySelector('main');
+      main.addEventListener('click', function () {
+        search.classList.add('hidden');
+        searchIcon.classList.remove('hidden');
+      });
