@@ -19,7 +19,7 @@ class Employee{
     // this is shallow copy
     Employee(Employee &obj){
           count=obj.count;
-         for(int i=0;i<this->count;++i){
+          for(int i=0;i<this->count;++i){
              arr[i]=obj.arr[i];
           }
     }

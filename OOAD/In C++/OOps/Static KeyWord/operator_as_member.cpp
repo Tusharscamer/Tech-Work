@@ -9,7 +9,7 @@ class Complex{
 
       }
       // oberloaded operator as member function
-     static Complex operator+(Complex num2){ 
+     static Complex operator+(Complex num2){ // it is not possible
         Complex sum;
         sum.real=this->real+num2.real;
         sum.imaginary=this->imaginary+num2.imaginary;

@@ -10,12 +10,12 @@ int main(){
     cout<<c;
     int &d=b;
     b=1;
-    cout<<d;
+    cout<<d<<endl;
     vector<int>arr;
     arr.push_back(4);
     int &e=arr[0];
     arr[0]=-1;
-    cout<<e;
+    cout<<e<<endl;
     e=45;
-    cout<<arr[0];
+    cout<<arr[0]<<endl;
 }

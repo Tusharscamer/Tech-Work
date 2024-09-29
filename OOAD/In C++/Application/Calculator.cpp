@@ -60,7 +60,11 @@ Cal<C> operator/(Cal<C> &obj1,  Cal<C> &obj2) {
     newobj.setnum1(obj1.getnum1() / obj2.getnum1());
     return newobj;
 }
-
+template <typename C>
+class App : public Cal<C> {
+    public:
+        App() {}
+};
 int main() {
     int i=5;
     Cal<int> num1(i);
