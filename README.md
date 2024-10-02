@@ -55,7 +55,7 @@ cpp
 
  <h2>Issues</h2>
  <ul>
- <li>How we can sort unordered_map<string,pair<int,int>>Time inorder To Apply Topological sort 
+ <li>How we can sort unordered_map(string,int)Time inorder To Apply Topological sort 
  </li>
- 
+
  </ul>
