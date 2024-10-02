@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Tech-Work/OOAD/Application",
-      "program": "d:/Tech-Work/OOAD/Application/build/Debug/outDebug",
+      "cwd": "d:/Tech-Work",
+      "program": "d:/Tech-Work/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
