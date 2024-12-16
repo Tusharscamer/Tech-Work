@@ -1,0 +1,86 @@
+.profile{
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    font-size: large;
+    color: white;
+    justify-content: space-evenly;
+    box-shadow: 20px 12px 12px blueviolet;
+}
+.email1,.email2{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+.mail{
+    color: white;
+}
+img{
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 6mm ridge  rgb(168, 168, 94);
+}
+.info{
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: rgb(135, 68, 198);
+    box-shadow: 15px 10px 10px black;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+.head-obj,.head-edu,.head-intern,.head-proj,.head-skill,.head-achieve,.head-pos,.head-extra{
+    background-color: rgb(191, 154, 154);
+    text-align: center;
+    font-size: large;
+    font-style: inherit;
+    box-shadow: 10px 5px 5px gray;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+.row1{
+    list-style-type: none;
+}
+.head-Nedu{
+    display: flex;
+    justify-content:space-between;
+    height:fit-content;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    padding-left: 100px;
+    margin-right: 20px;
+    margin-left: 30px;
+    font-size: larger;
+}
+.body-Nedu{
+    display: flex;
+    justify-content:space-between;
+    padding-right: 30px;
+    font-size: large;
+}
+.row3{
+    padding-right: 180px;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: black;
+}
+.info-error{
+    color: white;
+}
+@keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+}
