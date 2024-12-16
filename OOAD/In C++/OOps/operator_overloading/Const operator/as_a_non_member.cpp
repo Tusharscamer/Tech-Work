@@ -1,4 +1,5 @@
-// non const object can access const operator non member function
+// non member function cannot be const . because they are not part of any
+// class or object 
 #include<iostream>
 using namespace std;
 class Complex{

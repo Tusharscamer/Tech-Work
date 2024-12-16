@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 template <typename C>
 class Cal {
 private:
@@ -66,25 +65,10 @@ class App : public Cal<C> {
         App() {}
 };
 int main() {
-    int i=5;
-    Cal<int> num1(i);
-    Cal<int> num2(4);
-    Cal<int> num3 = num1 + num2;
-    cout<<num1-num2<<endl;
-    cout<<num2*num3<<endl;
-    cout<<num1/num2<<endl;
-    cout << num3 << endl; 
-    Cal<float> num4(2.5);
-    Cal<float> num5(4.3);
-    cout<<endl;
-    cout << num4+num5 << endl;
-    cout << num4-num5 << endl;
-    cout << num4*num5 << endl;
-    cout << num4/num5 << endl;
-    Cal<float> num6 = num4 + num5;
-    cout << endl;
-    Cal<string> num7("Hello");
-    Cal<string> num8("World");
-    cout << num7 + num8 << endl;
+    Cal<string> num;
+    cin>>num;
+    Cal<string> num8;
+    cin>>num8;
+    cout << num+ num8 << endl;
     return 0;
 }

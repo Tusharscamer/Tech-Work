@@ -2,7 +2,6 @@
 #include <vector>
 using namespace std;
 #define INF 1e10
-
 void floydWarshall(vector<vector<int>>& graph, int V) {
     vector<vector<int>> dist = graph;
     for (int k = 0; k < V; k++) {

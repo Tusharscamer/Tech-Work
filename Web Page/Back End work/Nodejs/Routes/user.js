@@ -1,6 +1,6 @@
 const express=require("express");
 const router=express.Router();
-app.route("/").get((req,res)=>{
+router.route("/").get((req,res)=>{
     // always add custom header with X- prefix
     res.setHeader("X-Owner","Tushar");// coustom header
     res.json(users);

@@ -1,8 +1,6 @@
 #include <iostream>
 #include <functional>
-
 using namespace std;
-
 class Auditorium {
     int rows, cols;
     int** seats; // Dynamically allocated 2D array to store seat status
@@ -78,7 +76,6 @@ public:
         }
     }
 };
-
 int main() {
     Auditorium a(3, 3); // 3x3 auditorium
 
